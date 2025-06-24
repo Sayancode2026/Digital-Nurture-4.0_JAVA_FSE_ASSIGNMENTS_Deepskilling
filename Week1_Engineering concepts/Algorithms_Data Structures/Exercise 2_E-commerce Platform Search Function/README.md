@@ -59,7 +59,7 @@ The project uses a standard Java package-based structure:
 
 ```powershell
 # Navigate to src directory
-cd \path	o\your\project\ECommerceSearchOptimization\src
+cd \path\to\your\project\ECommerceSearchOptimization\src
 
 # Compile the Java source files
 javac com\ecommerce\model\Product.java com\ecommerce\search\SearchAlgorithm.java com\ecommerce\Main.java
