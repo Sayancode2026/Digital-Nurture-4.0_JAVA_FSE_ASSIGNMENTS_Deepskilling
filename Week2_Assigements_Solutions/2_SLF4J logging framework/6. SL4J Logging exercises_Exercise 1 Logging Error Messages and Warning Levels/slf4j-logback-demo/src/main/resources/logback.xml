@@ -1,0 +1,22 @@
+<!-- Place this file in src/main/resources/logback.xml -->
+<configuration>
+
+  <!-- This defines an appender that writes to the console -->
+  <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+    <encoder>
+      <!-- This defines the format of the log message -->
+      <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+    </encoder>
+  </appender>
+
+  <!-- 
+    This is the root logger configuration. 
+    The "level" attribute controls the minimum severity of messages to be logged.
+    Standard levels are: TRACE < DEBUG < INFO < WARN < ERROR
+  -->
+  <root level="DEBUG">
+    <!-- Attach the console appender to the root logger -->
+    <appender-ref ref="STDOUT" />
+  </root>
+
+</configuration>
