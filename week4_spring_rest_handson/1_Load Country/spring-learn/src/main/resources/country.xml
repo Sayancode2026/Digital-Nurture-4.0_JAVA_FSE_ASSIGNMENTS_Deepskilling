@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--
+      This bean definition tells Spring:
+      - To create a bean with the unique ID "country".
+      - The bean is an instance of the "com.cognizant.spring_learn.Country" class.
+      - After creating the instance, call the setCode() method with the value "IN".
+      - Then, call the setName() method with the value "India".
+    -->
+    <bean id="country" class="com.cognizant.spring_learn.Country">
+        <property name="code" value="IN" />
+        <property name="name" value="India" />
+    </bean>
+
+</beans>
