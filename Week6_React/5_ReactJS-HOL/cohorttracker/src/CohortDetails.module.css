@@ -1,0 +1,14 @@
+/* Box class for the main container */
+.box {
+    width: 300px; /* [cite: 26] */
+    display: inline-block; /* [cite: 27] */
+    margin: 10px; /* [cite: 28] */
+    padding: 10px 20px; /* [cite: 29, 30] */
+    border: 1px solid black; /* [cite: 31] */
+    border-radius: 10px; /* [cite: 32] */
+}
+
+/* Tag selector for dt elements */
+dt {
+    font-weight: 500; /* [cite: 33] */
+}
