@@ -1,0 +1,16 @@
+.app-container {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+/* Style for each component column */
+.app-container > div {
+  width: 30%;
+  padding: 10px;
+}
+
+/* Vertical line style */
+.app-container > div:not(:last-child) {
+  border-right: 2px solid green;
+}
